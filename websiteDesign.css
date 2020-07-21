@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: powderblue;
+}
+h2 {
+	color: #d7f8fa;
+}
+h3 {
+	color: green;
+}
+
+video {
+	height: 100%;
+	width: 100%;
+
+}
+
+#video{
+	position: relative;
+	padding-bottom: 10%;
+}

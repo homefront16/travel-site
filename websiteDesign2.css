@@ -1,0 +1,94 @@
+@charset "UTF-8";
+*{
+	box-sizing: border-box;
+}
+
+#logo {
+	text-align: center;
+	height: 10em;
+	border-radius: 50%;
+}
+
+body {
+	background-color: #e6e5b003;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	color: black;
+	margin-top: 0;
+}
+h3 {
+	text-align: center;
+	color: black;
+}
+
+p {
+	text-align: center;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#navBar {
+	text-align: center;
+	padding-top: 3em;
+}
+
+#header{
+	flex-direction: row;
+	display: inline-flex;
+}
+
+#navBar li {
+	flex-direction: row;
+	display: inline-flex;
+	transition: background-color .5s linear;
+}
+
+#navBar li:hover {
+	background-color: gold;
+}
+
+#navBar a:hover {
+	font-size: 1.1em;
+}
+
+video {
+	height: 100%;
+	width: 100%;
+
+}
+
+#video{
+	position: relative;
+	padding-bottom: 10%;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.callToAction {
+	border-style: outset;
+	border-color: black;
+	padding: .2em;
+}
+
+
+
+
+
+
+
+
+
+
+
