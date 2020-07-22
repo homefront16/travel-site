@@ -70,6 +70,33 @@ video {
 	padding-left: 10%;
 }
 
+.services {
+
+
+}
+.columnOne{
+	flex-basis: 30%;
+}
+.columnTwo{
+	flex-basis: 30%;
+}
+.columnThree{
+	flex-basis: 30%;
+}
+#servicesimg {
+	height: 30%;
+	width: 20%;
+	border-radius: 50%;
+
+}
+
+@media(min-width: 900px){
+	.services{
+		display: flex;
+		justify-content: center;
+	}
+}
+
 a{
 	text-align: center;
 	text-decoration: none;
@@ -81,6 +108,8 @@ a{
 	border-color: black;
 	padding: .2em;
 }
+
+
 
 
 
